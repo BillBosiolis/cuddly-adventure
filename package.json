@@ -1,7 +1,7 @@
 {
   "name": "aoe",
   "version": "4.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "license": "MIT",
   "scripts": {
     "build": "REACT_APP_RADAR_NAME=\"Studios Tech Radar\" npx aoe_technology_radar-buildRadar",

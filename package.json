@@ -10,7 +10,7 @@
     "createStaticFiles": "npx aoe_technology_radar-createStaticFiles",
 
     "build:static": "npm run generateJson",
-    "prebuild:static": "npm run build:static",
+    "prebuild:static": "npm run build",
     "postbuild:static": "npm run createStaticFiles",
 
     "start:static": "npm run start:server",

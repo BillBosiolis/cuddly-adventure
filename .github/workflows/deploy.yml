@@ -23,7 +23,7 @@ jobs:
           cache: 'npm'
 
       - run: npm ci
-      - run: npm run build:static
+      - run: PUBLIC_URL=/ npm run build:static
       - run: if [ -n "$(git status --porcelain)" ]; then echo 'workspace is dirty after rebuilding' ; git status ; git diff ; exit 1 ; fi
 
       - name: Setup Pages

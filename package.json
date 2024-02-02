@@ -1,4 +1,23 @@
 {
+  "name": "aoe",
+  "version": "4.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "REACT_APP_RADAR_NAME=\"Studios Tech Radar\" npx aoe_technology_radar-buildRadar",
+    "generateJson": "npx aoe_technology_radar-generateJson",
+    "createStaticFiles": "npx aoe_technology_radar-createStaticFiles",
+
+    "build:static": "npm run generateJson",
+    "prebuild:static": "npm run build",
+    "postbuild:static": "npm run createStaticFiles",
+
+    "start:static": "npm run start:server",
+    "prestart:static": "npm run build:static",
+
+    "start": "npm run start:server",
+    "start:server": "npx serve -s build -p 8080"
+  },
   "dependencies": {
     "aoe_technology_radar": "^3.6.0"
   }

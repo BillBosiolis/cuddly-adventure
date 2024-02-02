@@ -5,7 +5,7 @@
   "license": "MIT",
   "homepage": "localhost:8080",
   "scripts": {
-    "build": "PUBLIC_URL=/ REACT_APP_RADAR_NAME=\"Studios Tech Radar\" npx aoe_technology_radar-buildRadar",
+    "build": "npx aoe_technology_radar-buildRadar",
     "generateJson": "npx aoe_technology_radar-generateJson",
     "createStaticFiles": "npx aoe_technology_radar-createStaticFiles",
 

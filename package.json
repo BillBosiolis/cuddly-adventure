@@ -3,10 +3,11 @@
   "version": "4.0.0",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "localhost:8080",
   "scripts": {
-    "build": "REACT_APP_RADAR_NAME=\"Studios Tech Radar\" npx aoe_technology_radar-buildRadar",
+    "build": "PUBLIC_URL=/ REACT_APP_RADAR_NAME=\"Test Tech Radar\" npx aoe_technology_radar-buildRadar",
     "generateJson": "npx aoe_technology_radar-generateJson",
-    "createStaticFiles": "npx aoe_technology_radar-createStaticFiles",
+    "createStaticFiles": "PUBLIC_URL=/ REACT_APP_RADAR_NAME=\"Test Tech Radar\" npx aoe_technology_radar-createStaticFiles",
 
     "build:static": "npm run generateJson",
     "prebuild:static": "npm run build",

@@ -11,7 +11,7 @@ permissions:
 
 env:
   REACT_APP_RADAR_NAME: "Studios Tech Radar 123"
-  PUBLIC_URL: /
+  PUBLIC_URL: cuddly-adventure/
 
 jobs:
   build:

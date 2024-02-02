@@ -27,7 +27,7 @@ jobs:
       #      - run: if [ -n "$(git status --porcelain)" ]; then echo 'workspace is dirty after rebuilding' ; git status ; git diff ; exit 1 ; fi
 
       - run: npm ci
-      - run: PUBLIC_URL=/cuddly-adventure REACT_APP_RADAR_NAME="Test Tech Radar" npx aoe_technology_radar-buildRadar
+      - run: PUBLIC_URL=/cuddly-adventure/ REACT_APP_RADAR_NAME="Test Tech Radar" npx aoe_technology_radar-buildRadar
       - run: npx aoe_technology_radar-generateJson
       - run: npx aoe_technology_radar-createStaticFiles
       - run: if [ -n "$(git status --porcelain)" ]; then echo 'workspace is dirty after rebuilding' ; git status ; git diff ; exit 1 ; fi

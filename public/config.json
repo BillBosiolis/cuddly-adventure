@@ -15,25 +15,25 @@
     "homepageContent": "both",
     "quadrantsMap": {
       "languages-and-frameworks": {
-        "colour": "#84BFA4",
+        "colour": "#6FBEEE",
         "txtColour": "#444444",
         "position": 1,
         "description": "We've placed development languages (such as Scala or Golang) here, as well as more low-level development frameworks (such as Play or Symfony), which are useful for implementing custom software of all kinds."
       },
       "methods-and-patterns": {
-        "colour": "#248EA6",
+        "colour": "#B9BC88",
         "txtColour": "white",
         "position": 2,
         "description": "Here we put information on methods and patterns concerning development, continuous x, testing, organization, architecture, etc."
       },
       "platforms-and-services": {
-        "colour": "#F25244",
+        "colour": "#DDEAF3",
         "txtColour": "#444444",
         "position": 3,
         "description": "This quadrant clusters technologies around the operation of software and infrastructure related platforms, tools and services."
       },
       "tools": {
-        "colour": "#F2A25C",
+        "colour": "#D8C5A5",
         "txtColour": "white",
         "position": 4,
         "description": "Here we put different software tools - from small helpers to bigger software projects."

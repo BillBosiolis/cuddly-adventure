@@ -1,13 +1,13 @@
 ---
 title:      "Serverless"
-ring:       adopt
+ring:       assess
 quadrant:   methods-and-patterns
-tags:       [devops]
+tags:       [server, architecture, devops, deployment]
 ---
 
 The serverless pattern, also referred to as Function as a Service (FaaS), represents a paradigm shift in cloud computing. It enables developers to focus solely on writing code, which is executed in response to events without having to manage the underlying servers or infrastructure. Serverless applications are composed of multiple individual functions or microservices that automatically scale in response to demand.
 
-At AOE, we encourage our development teams to adopt the serverless pattern for its increased scalability, reduced operational overhead, and cost-effectiveness.
+**At Studios, a small attempt was made to use AWS Lambda function in GDM Replay Service but it turned out be more complex than expected.** 
 
 ### Common Tools for Developing and Deploying Serverless Applications
 - **[AWS SAM (Serverless Application Model)](https://aws.amazon.com/serverless/sam/):** An AWS-native tool that simplifies the deployment of serverless applications on Amazon Web Services (AWS) and supports multiple programming languages.

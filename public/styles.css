@@ -1,5 +1,5 @@
 body {
-    background: #264e75 !important;
+    background: #063b70 !important;
     color: #ffffff !important;
 }
 
@@ -11,3 +11,83 @@ body {
 .headline {
     color: #ADD6FF !important;
 }
+
+.flag--new {
+    background: var(--color-orange) !important;
+}
+
+.test {
+    color: #c48fd9;
+}
+
+/* Green Globe On Moss - Environmental Concept */
+/*
+background: #042940;
+color: #ffffff;
+description: #E0F0FF;
+headline: #ADD6FF;
+quad1: "#005C53",
+quad2: "#9FC131",
+quad3: "#DBF227",
+quad4: "#D6D58E"
+*/
+
+/* Blue - UI/UX Thanawat Sakdawisarak */
+/*
+background: #042940;
+color: #ffffff;
+description: #E0F0FF;
+headline: #ADD6FF;
+quad1: "#BFF29B",
+quad2: "#F2F0D8",
+quad3: "#F2E963",
+quad4: "#F28749"
+*/
+
+/* Dark Green & Tropical Fruit Punch */
+/*
+background: #011714;
+color: #ffffff;
+description: #E0F0FF;
+headline: #ADD6FF;
+quad1: "#44803F",
+quad2: "#B4CF66",
+quad3: "#FFEC5C",
+quad4: "#FF5A33"
+*/
+
+/* Purple & Seychelle Islands */
+/*
+background: #3C2F80;
+color: #ffffff;
+description: #E0F0FF;
+headline: #ADD6FF;
+quad1: "#26B6C6",
+quad2: "#AEE8CA",
+quad3: "#6ACFC9",
+quad4: "#FAEDDA"
+*/
+
+/* Lnw Dark & Goldie */
+/*
+background: #0e0d0d;
+color: #ffffff;
+description: #E0F0FF;
+headline: #ADD6FF;
+quad1: "#ecaa2f",
+quad2: "#E832D0",
+quad3: "#3CD4E1",
+quad4: "#C48FD9"
+*/
+
+/* Dark Blue & Summer */
+/*
+background: #063b70;
+color: #ffffff;
+description: #E0F0FF;
+headline: #ADD6FF;
+quad1: "#6FBEEE",
+quad2: "#B9BC88",
+quad3: "#DDEAF3",
+quad4: "#D8C5A5"
+*/

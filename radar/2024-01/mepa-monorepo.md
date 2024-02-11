@@ -1,12 +1,11 @@
 ---
 title:      "Monorepo"
-ring:       adopt
+ring:       assess
 quadrant:   methods-and-patterns
 tags:       [coding]
 ---
 
-Adopting a monorepo approach for our React and Next.js-based projects offers several benefits, _although it may not be
-the best fit for every project._
+**NOTE**: It has not been decided whether to use a monorepo or not. This is just a placeholder for now.
 
 1. More efficient code sharing and reusability.
 2. Consistent development environment.
